@@ -61,5 +61,5 @@ Be sure to check out the docs to learn how to actually do things! http://develop
 
 ## Things I'd like to do:
 
-[ ] Automatically get URL's for each service and map an object to it (ex `client.compute.get(…)`)
-[ ] Better Error Checking
+- [ ] Automatically get URL's for each service and map an object to it (ex `client.compute.get(…)`)
+- [ ] Better Error Checking
