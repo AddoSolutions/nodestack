@@ -50,7 +50,7 @@ You can see how this is done here: http://developer.openstack.org/api-ref-identi
 Once you have your working `client` then you can do whatever you need:
 
 ```javascript
-client.get("http://10.0.0.10:8774/v2{object-id}/servers/detail", function(data){
+client.get("http://10.0.0.10:8774/v2/{object-id}/servers/detail", function(data){
 	console.log("Found " + data.servers.length + " servers!");
 });
 ```
