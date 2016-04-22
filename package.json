@@ -1,0 +1,33 @@
+{
+  "name": "nodestack",
+  "version": "0.0.1",
+  "description": "An ultra simple API integration for OpenStack in JavaScript",
+  "main": "dist/client.js",
+  "scripts": {
+    "test": "test.js",
+    "compile": "babel -d dist client.es6",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AddoSolutions/nodestack.git"
+  },
+  "keywords": [
+    "openstack",
+    "cloud",
+    "open",
+    "stack"
+  ],
+  "devDependencies": {
+    "babel": "^4.6.0"
+  },
+  "author": "Nick Artman <nick.artman@ethode.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AddoSolutions/nodestack/issues"
+  },
+  "homepage": "https://github.com/AddoSolutions/nodestack#readme",
+  "dependencies": {
+    "node-rest-client": "^1.8.0"
+  }
+}
